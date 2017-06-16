@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: patCool;
+    src: url('assets/fonts/Pat-PaCool.woff') format('woff');
+}
+@font-face {
+    font-family: roboBlack;
+    src: url('assets/fonts/Roboto-Black.ttf') format('ttf');
+}

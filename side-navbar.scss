@@ -1,0 +1,51 @@
+.sbw-side-navbar{
+    height: calc(100vh - 60px);
+  background: #eee;
+    .sbw-user-block{
+        text-align: center;
+        display: block;
+        padding-top: 20px;
+        border-color: #2e2e2e;
+        border-bottom: 1px solid;
+        .sbw-user-img{
+            border-radius: 50%;
+            width: 10em !important;
+            height: 10em !important;
+        }
+        .sbw-user-name{
+            color: #337ab7;
+            font-size: 2.5em;
+            font-weight: 400;
+            line-height: 3.07rem;
+            padding-bottom: 20px;
+        }
+    }
+    .sbw-user-action{
+        .sbw-user-menu{
+            list-style: none;
+            padding: 0;
+            border-color: #2e2e2e;
+            border-bottom: 1px solid;
+            .sbw-user-action-list{
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                cursor: pointer;
+                .sbw-user-action-desc{
+                    line-height: 55px;
+                    font-size: 16px;
+                    padding:0px 10px;
+                    display: block;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: #333;
+                    cursor: pointer;
+                    margin-left: 9em;
+                }
+            }
+            .sbw-user-action-list:hover{
+                background-color: #fff;
+            }
+        }
+    }
+}

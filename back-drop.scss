@@ -1,0 +1,27 @@
+@import "../../../assets/styles/_common.scss";
+
+.sbw-backGround{
+    background: #f5f5f5;
+    position: relative;
+    height: calc(100vh - 60px);
+    width: 100%;
+    top: 0;
+    .sbw-nav-wrapper{
+        float: left;
+        width: 15%;
+    }
+    .sbw-ui-route-wrapper{
+        float: right;
+        width: 84%;
+    }
+   .sbw-signup-container{
+       width: 100%;
+       height: auto;
+       z-index: 2;
+       position: absolute;
+       background-image: url("../../../assets/images/signIn.jpg");
+       background-size: 100% auto;
+       top:0;
+       bottom:0;
+    }
+}

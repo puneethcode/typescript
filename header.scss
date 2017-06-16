@@ -1,0 +1,28 @@
+.sbw-header-navigator{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background: #091823;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    .wrapper{
+        width: 100%;
+        .leftWrapper{
+            width:15%;
+            float: left;
+        }
+        .rightWrapper{
+            width: 85%;
+            float: right;
+            text-align: right;
+        }
+        .navbar-brand{
+          padding-left: 0px;
+          float: none;
+          color:white;
+        }
+    }
+}
+

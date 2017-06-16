@@ -1,0 +1,13 @@
+
+
+<app-header></app-header>
+<div class="sbw-backGround">
+<!--  <div class="sbw-nav-wrapper">
+    <app-nav-bar>
+        {{title}}
+    </app-nav-bar>
+  </div>-->
+  <div  [ngClass]="{'sbw-signup-container':signUpView,'sbw-ui-route-wrapper':!signUpView}">
+    <router-outlet></router-outlet>
+  </div>
+</div>

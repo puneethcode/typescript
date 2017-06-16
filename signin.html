@@ -1,0 +1,52 @@
+<div class="signup-container">
+  <div class="signup-content">
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" [(ngModel)]="editUser.userId" [ngModelOptions]="{standalone: true}" placeholder="Email">
+        </div>
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" [(ngModel)]="editUser.passCode" [ngModelOptions]="{standalone: true}" placeholder="Password">
+        </div>
+      </div>
+      <div class="row" ng-if="section">
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" placeholder="First Name">
+        </div>
+        <div class="col-md-6">
+          <input class="form-control signup-form-control" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="row mt30">
+        <div class="col-md-12">
+         <button type="button" (click)="getIn()" class="btn btn-default btn-block sign-up-button">SIGN UP FOR FREE</button>
+        </div>
+        <h1>{{response.errorDesc}}</h1>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+<!--<ul>
+  <li *ngFor="let user of users">
+    {{user.passCode}}
+  </li>
+
+</ul>
+[:flyInOut]="'in'" 
+<button type="button" class="btn btn-default" (click)="updateState()" [@heroState]="state">Click Me!</button>
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+  <label class="mdl-textfield__label" for="nametext">User Id</label>
+  <input type="text" id="nametext" class="mdl-textfield__input" [(ngModel)]="editUser.userId" />
+</div>
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+  <label class="mdl-textfield__label" for="nametext">Passcode</label>
+  <input type="text" id="nametext" class="mdl-textfield__input" [(ngModel)]="editUser.passCode" />
+</div>
+
+ <button class="dashboard-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect
+      mdl-button--accent" (click)="getIn()">Sign In</button>-->
+
+<!--[(ngModel)]="editCharacter.name"-->
